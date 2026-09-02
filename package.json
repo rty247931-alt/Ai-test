@@ -1,10 +1,11 @@
 {
-  "name": "manfaz-final",
+"name": "manfaz-final",
   "version": "1.0.0",
+  "author": "Your Name",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-"dist": "electron-packager . --platform=win32 --arch=x64 --out=dist --overwrite"
+"dist": "electron-packager . --platform=win32 --arch=x64 --out=dist --overwrite --electron-version=28.0.0"
   },
   "build": {
     "appId": "com.manfaz.final",
