@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win nsis"
+"dist": "electron-packager . --platform=win32 --arch=x64 --out=dist --overwrite"
   },
   "build": {
     "appId": "com.manfaz.final",
@@ -22,6 +22,6 @@
   "devDependencies": {
     "@noble/hashes": "^1.3.1",
     "app-builder-lib": "^26.15.3",
-    "electron-builder": "^26.15.3"
+    "electron-packager": "^17.1.2"
   }
 }
